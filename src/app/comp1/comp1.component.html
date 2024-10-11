@@ -1,0 +1,11 @@
+<h3>This is Component 1</h3>
+
+Enter your text: <input type="text" #txtnum>
+<button (click)="addnumber(txtnum.value)">Add number</button>
+@for (num of list1; track num) {
+    <ul>
+        <li>
+            <b>{{num}}</b>
+        </li>
+    </ul>
+}
